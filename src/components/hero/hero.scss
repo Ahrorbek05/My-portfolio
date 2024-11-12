@@ -55,7 +55,25 @@
                 border: 1px solid white;
                 border-radius: 10px;
                 cursor: pointer;
-                font-weight: 300;
+                font-weight: 600;
+                background-color: transparent;
+                color: white;
+            }
+
+            .herobtn {
+                background-color: white;
+                border: none;
+                border-radius: 10px;
+                padding: 10px;
+                width: 100px;
+                font-weight: 600;
+                color: #0c0c1d;
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            .herobtn:hover {
+                border: 1px solid white;
                 background-color: transparent;
                 color: white;
             }

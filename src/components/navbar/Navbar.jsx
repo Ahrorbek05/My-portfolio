@@ -22,7 +22,7 @@ const Navbar = () => {
                     <a href="#">
                         <img src="/instagram.svg" alt="" />
                     </a>
-                    <a href="#">
+                    <a href="https://t.me/programmer_19">
                         <img src="/telegram.svg" alt="" />
                     </a>
                     <a href="#">
