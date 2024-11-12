@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
     {
         id: 1,
-        title: "React Commerce",
+        title: "React Ecommerce",
         img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     },
@@ -17,7 +17,7 @@ const items = [
     },
     {
         id: 3,
-        title: "Vanilla JS App",
+        title: "React JS App",
         img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     },
@@ -72,7 +72,7 @@ const Projects = () => {
     return (
         <div className="portfolio" ref={ref}>
             <div className="progress">
-                <h1>Featured Works</h1>
+                <h1>Loyihalarim</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
             </div>
             {items.map((item) => (

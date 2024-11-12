@@ -55,7 +55,7 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Keling fikr almashimiz!</motion.h1>
+        <motion.h1 variants={variants}>Keling, fikr almashimiz!</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Email</h2>
           <span>hello@gamil.com</span>
